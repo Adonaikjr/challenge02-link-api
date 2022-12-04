@@ -67,6 +67,7 @@ export function App() {
       <Header />
       <ContainerMain>
         <ContentMain>
+
           <Section>
             <h1>More than just shorter links</h1>
             <p>
@@ -75,7 +76,9 @@ export function App() {
             </p>
             <button>Get Started</button>
           </Section>
+
           <BackgroundImage />
+
         </ContentMain>
 
         <ContainerArticle>
@@ -100,6 +103,7 @@ export function App() {
               {button}
             </button>
           </PreviewLink>
+
           <ContentAside>
             <SectionContentAside>
               <h1>Advanced Statistics</h1>
@@ -109,6 +113,7 @@ export function App() {
               </p>
             </SectionContentAside>
           </ContentAside>
+
           <ContainerComponentCard>
             <div>
               <Card
@@ -132,6 +137,7 @@ export function App() {
               />
             </div>
           </ContainerComponentCard>
+
         </ContainerAside>
       </ContainerMain>
 

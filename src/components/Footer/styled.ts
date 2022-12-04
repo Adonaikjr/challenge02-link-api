@@ -3,12 +3,15 @@ import { defaultColors } from '../../theme/defaultColors'
 
 export const ContainerFooter = styled.footer`
   border: solid transparent;
-  height: 40vh;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   background-color: ${() => defaultColors.secondVeryDarkViolet};
+  width: 100%;
   nav {
     display: flex;
+    flex-wrap: wrap;
   }
   ul {
     margin: 2rem;

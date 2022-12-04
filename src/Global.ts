@@ -14,6 +14,10 @@ export const Global = createGlobalStyle`
 body {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 button {
     font-family: 'Poppins', sans-serif;
