@@ -70,9 +70,12 @@ export const ContentMain = styled.div`
   align-items: center;
   flex-wrap: wrap;
   border: solid transparent;
+  padding-left:5rem;
+  padding-right: 5rem;
   width: 100%;
   @media (max-width: 1235px) {
    flex-direction: column-reverse;
+   padding: 0px;
   }
 `;
 export const ContainerArticle = styled.article`
@@ -89,7 +92,7 @@ export const ContainerArticle = styled.article`
 `;
 export const ContentArticle = styled.div`
   height: 8rem;
-  width: 50rem;
+  width: 85rem;
   margin: 1rem;
   padding: 1rem;
   display: flex;
@@ -148,6 +151,7 @@ export const ContainerAside = styled.aside`
   height: 100%;
   width: 100%;
   border: solid transparent;
+  padding-bottom: 10rem;
 `;
 export const ContentAside = styled.div`
   display: flex;
